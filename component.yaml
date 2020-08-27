@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: api-gateway
-  description: API Gateway
+  name: 'App'
+  description: 'a description'
+  annotations:
+    backstage.io/jenkins-github-folder: 'Backend/App'
 spec:
   type: service
-  lifecycle: production
-  owner: api@example.com
+  lifecycle: experimental
+  owner: vlad
